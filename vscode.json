@@ -1,0 +1,81 @@
+{
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": "true",
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+      "editor.bracketPairColorization.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "workbench.editor.tabSizing": "shrink",
+  "explorer.compactFolders": false,
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+  
+  //formatter
+  "prettier.tabWidth": 2,
+  "prettier.semi": false, 
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none", 
+  "prettier.arrowParens": "avoid",
+  "prettier.endOfLine": "auto",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+      "adapters": "contract",
+      "grpc": "pipe",
+      "kube": "kubernetes",
+      "main": "lib",
+      "websockets": "pipe",
+      "implementations": "core",
+      "protos": "pipe",
+      "entities": "class",
+      "kafka": "pipe",
+      "use-cases": "functions",
+      "migrations": "tools",
+      "schemas": "class",
+      "useCases": "functions",
+      "eslint-config": "tools",
+      "typeorm": "database",
+      "_shared": "shared",
+      "mappers": "meta",
+      "fakes": "mock",
+      "modules": "components",
+      "subscribers": "messages",
+      "domain": "class",
+      "protocols": "contract",
+      "infra": "app",
+      "view-models": "views",
+      "presentation": "template",
+      "dtos": "typescript",
+      "http": "container",
+      "providers": "include",
+      "factories": "class",
+      "repositories": "mappings"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.fullReload": true,
+  "tabnine.experimentalAutoImports": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "[prisma]": {
+      "editor.formatOnSave": true
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": -1,
+  "javascript.updateImportsOnFileMove.enabled": "always"
+
+  
+
+}
